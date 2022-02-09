@@ -77,3 +77,11 @@ img {
         grid-column: span 1;
     }
 }
+
+footer{
+    background-color: #dbf2f9;
+}
+.social_icon a{
+    color: #000;
+    font-size: 20px;
+}
