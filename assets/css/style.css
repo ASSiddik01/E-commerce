@@ -13,3 +13,21 @@
 .banner{
     background-color: #dbf2f9;
 }
+
+.service_icon_1{
+    height: 100px;
+    width: 100px;
+    background-color: #ffdec7;
+}
+
+.service_icon_2{
+    height: 100px;
+    width: 100px;
+    background-color: #e3dcfe;
+}
+
+.service_icon_3{
+    height: 100px;
+    width: 100px;
+    background-color: #f9d9ea;
+}
