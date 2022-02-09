@@ -1,32 +1,34 @@
-.regular_btn{
+.regular_btn {
     background-color: #00d095;
 }
 
-.banner_title h2{
+.banner_title h2 {
     color: #3d7684;
+    font-size: 50px;
 }
 
-.banner_title h1{
+.banner_title h1 {
     color: #1c5e6d;
+    font-size: 60px;
 }
 
-.banner{
+.banner {
     background-color: #dbf2f9;
 }
 
-.service_icon_1{
+.service_icon_1 {
     height: 100px;
     width: 100px;
     background-color: #ffdec7;
 }
 
-.service_icon_2{
+.service_icon_2 {
     height: 100px;
     width: 100px;
     background-color: #e3dcfe;
 }
 
-.service_icon_3{
+.service_icon_3 {
     height: 100px;
     width: 100px;
     background-color: #f9d9ea;
@@ -35,42 +37,68 @@
 /* Reset CSS */
 
 img {
-	max-width: 100%;
-	height: auto;
-	vertical-align: middle;
-	display: inline-block;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
 }
 
 /* Main CSS */
-.grid-wrapper > div {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.grid-wrapper>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.grid-wrapper > div > img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	border-radius: 5px;
+
+.grid-wrapper>div>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
 }
 
 .grid-wrapper {
-	display: grid;
-	grid-gap: 10px;
-	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-	grid-auto-rows: 200px;
-	grid-auto-flow: dense;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 200px;
+    grid-auto-flow: dense;
 }
+
 .grid-wrapper .wide {
-	grid-column: span 2;
+    grid-column: span 2;
 }
+
 .grid-wrapper .tall {
-	grid-row: span 2;
+    grid-row: span 2;
 }
+
 .grid-wrapper .big {
-	grid-column: span 2;
-	grid-row: span 2;
+    grid-column: span 2;
+    grid-row: span 2;
 }
+
+footer {
+    background-color: #dbf2f9;
+}
+
+.social_icon a {
+    color: #000;
+    font-size: 20px;
+}
+
+.cta_area {
+    background-color: antiquewhite;
+    height: 300px;
+}
+
+.cta_info {
+    height: 270px;
+    width: 300px;
+    right: 0;
+}
+
+
 
 @media (max-width:768px) {
     .grid-wrapper .big {
@@ -78,10 +106,14 @@ img {
     }
 }
 
-footer{
-    background-color: #dbf2f9;
-}
-.social_icon a{
-    color: #000;
-    font-size: 20px;
+@media (max-width:576px) {
+
+
+    .banner_title h2 {
+        font-size: 30px;
+    }
+
+    .banner_title h1 {
+        font-size: 40px;
+    }
 }
