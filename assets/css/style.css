@@ -52,6 +52,42 @@ img {
 }
 
 
+
+
+/* ---------------------
+-----Price Sections-----
+--------------------- */
+.card_heading_color{
+    color: #231D4F;
+}
+
+.card_button_bg{
+    background-color: #fef5fa;
+}
+
+.card_list li i.fas {
+    color: #5243C2;
+    background-color: #edecf9;
+}
+
+.highlight_price {
+    top: -40px;
+}
+
+.highlight_price .card {
+    border-radius: 25px;
+}
+
+.highlight_price li i.fas, .theme_btn {
+    background-color: #edecf9;
+}
+
+.tag {
+    background: #ff4e4e;
+    right: -40px;
+}
+
+
 /* Compare Area */
 .border_vertical {
     border-left: 2px solid gray;
