@@ -1,7 +1,7 @@
 /* Base CSS */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -57,11 +57,11 @@ img {
 /* ---------------------
 -----Price Sections-----
 --------------------- */
-.card_heading_color{
+.card_heading_color {
     color: #231D4F;
 }
 
-.card_button_bg{
+.card_button_bg {
     background-color: #fef5fa;
 }
 
@@ -167,6 +167,214 @@ img {
 /* Footer */
 footer {
     background-color: #dbf2f9;
+    color: #000 ;
+}
+
+
+.footer {
+    height: auto;
+    min-height: 300px;
+    padding: 50px 0 20px 0;
+    position: relative
+}
+
+.contact_info h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 15px 0 20px 0
+}
+
+.contact_info ul li {
+    clear: both;
+    margin-bottom: 10px;
+    line-height: 20px;
+    height: 25px
+}
+
+.contact_info ul li i {
+    float: left;
+    color: #000 ;
+    font-size: 15px;
+    margin-right: 10px
+}
+
+.contact_info ul li span {
+    color: #000 ;
+    font-weight: 400;
+    margin-right: 15px;
+    float: left;
+    font-size: 15px
+}
+
+.contact_info ul li p {
+    color: #000 ;
+    float: left;
+    font-size: 14px
+}
+
+.font-400 {
+    font-weight: 600
+}
+
+.margin-bottom-10 {
+    margin-bottom: 15px
+}
+
+.contact_info ul li p a {
+    color: #000 ;
+    cursor: pointer;
+    text-decoration: none
+}
+
+.contact_info ul li p a:hover {
+    color: #000 ;
+}
+
+
+
+
+
+.footer-blog-feed {
+    height: auto;
+    padding: 20px 5px;
+    position: relative
+}
+
+.footer-blog-feed h4 {
+    color: #000 ;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding: 15px 0 20px 0
+}
+
+.footer-blog-feed li {
+    border-bottom: 1px dashed #333941;
+    padding: 10px 0;
+    line-height: 1.6em
+}
+
+.footer-blog-feed li:last-child {
+    border-bottom: none
+}
+
+.footer-blog-feed li:first-child {
+    padding-top: 0
+}
+
+.footer-blog-feed li i {
+    color: #000 ;
+    margin-right: 10px
+}
+
+.footer-blog-feed li a {
+    color: #000 ;
+    text-decoration: none
+}
+
+.footer-blog-feed li a:hover {
+    color: #3498db
+}
+
+.footer_links_widget {
+    height: auto;
+    padding: 20px 5px;
+    position: relative
+}
+
+.footer_links_widget h4 {
+    color: #000 ;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding: 15px 0 20px 0
+}
+
+.footer_links_widget li {
+    padding: 5px 0;
+    line-height: 1.6em
+}
+
+.footer_links_widget li:last-child {
+    border-bottom: none
+}
+
+.footer_links_widget li:first-child {
+    padding-top: 0
+}
+
+.footer_links_widget li i {
+    color: #000 ;
+    margin-right: 10px
+}
+
+.footer_links_widget li a {
+    color: #000 ;
+    text-decoration: none
+}
+
+.footer_links_widget li a:hover {
+    color: gray
+}
+
+.copy_right {
+    height: auto;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    font-weight: 400;
+    padding: 15px 10px;
+
+}
+
+.copy_right img {
+    margin-left: 20px;
+    padding-top: 15px;
+    float: left
+}
+
+.copy_right p a {
+    color: #3498db;
+    margin-left: 5px;
+    text-decoration: none
+}
+
+.copy_right p a:hover {
+    color: #156193
+}
+
+.copy_right p {
+    color: #000;
+    float: left;
+    line-height: 50px;
+    margin-left: 15px
+}
+
+.copy_right .social_footer {
+    float: right;
+    line-height: 50px;
+    margin-right: 20px
+}
+
+.copy_right h6 {
+    display: inline-block;
+    padding: 20px 0 0 10px
+}
+
+.social_footer li {
+    float: left;
+    margin-left: 20px;
+    font-size: 20px;
+    
+}
+
+.social_footer li a {
+    color: #000 ;
+}
+
+.social_footer li a:hover {
+    color: gray
 }
 
 .social_icon a {
@@ -174,12 +382,14 @@ footer {
     font-size: 20px;
 }
 
+
+
 /*+++++++++++++++++++
     Responsive CSS 
  ++++++++++++++++++*/
 
 /* Tablet Device */
-@media (max-width:768px) { 
+@media (max-width:768px) {
     .grid-wrapper .big {
         grid-column: span 1;
     }
@@ -188,7 +398,6 @@ footer {
     .border_vertical {
         margin-left: 37px;
         height: 370px
-
     }
 }
 
