@@ -41,22 +41,12 @@ img {
 }
 
 /* Service CSS */
-.service_icon_1 {
-    height: 100px;
-    width: 100px;
-    background-color: #ffdec7;
-}
 
-.service_icon_2 {
+.service_icon_1, .service_icon_2, .service_icon_3 {
     height: 100px;
     width: 100px;
-    background-color: #e3dcfe;
-}
-
-.service_icon_3 {
-    height: 100px;
-    width: 100px;
-    background-color: #f9d9ea;
+    background-color: #dbf2f9;
+    
 }
 
 
@@ -73,11 +63,11 @@ img {
 }
 
 .card_button_bg {
-    background-color: #fef5fa;
+    background-color: #258597;
 }
 
 .card_list li i.fas {
-    color: #5243C2;
+    color: #258597;
     background-color: #edecf9;
 }
 .card{
@@ -584,4 +574,18 @@ footer {
     background: -o-linear-gradient(top, white, black);
     background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
     background: linear-gradient(to bottom, white, black);
+}
+
+/* Login */
+
+.form_bg{
+    background-color: #c6f1f8 !important;
+}
+
+.form_title{
+    color: #258597;
+}
+
+.own_border{
+    border-bottom: 2px solid #258597;
 }
