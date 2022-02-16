@@ -589,3 +589,15 @@ footer {
 .own_border{
     border-bottom: 2px solid #258597;
 }
+
+.form_height {
+    height: 200px;
+}
+
+.form_height input{
+    display: none;
+}
+
+.form_height:hover input{
+    display: block;
+}

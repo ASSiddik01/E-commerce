@@ -73,40 +73,53 @@
         <!-- Info Form -->
         <div class="container">
             <div class="row my-5 bg-light p-5 form_bg rounded-3 d-flex align-items-center">
-                <div class="col-lg-6 col-sm-12 mb-3">
-                    <img class="img-fluid rounded-3" src="assets/img/assets/img/form.png" alt="">
-                </div>
-                <div class="col-lg-6 col-sm-12 text-center">
-                    <h2 class="form_title">Tell us about your Business</h2>
-                    <h4 class="pb-3">Step 1</h4>
+                <div class="col-lg-12 col-sm-12 text-center">
+                    <h4 class="pb-2">Step 1</h4>
+                    <h2 class="form_title mb-4">Tell us about your Business</h2>
+                    
                     <form action="">
-                        <div class="form-floating mb-3">
-                            <input type="text" class="form-control border-0 border-bottom own_border" id="floatingInput"
-                                placeholder="Business Name">
-                            <label for="floatingInput">Business Name</label>
-                        </div>
-                        <div class="form-floating mb-3">
-                            <label for="floatingInput">Business Type</label>
-                            <select class="form-select" id="" required>
-                                <option selected disabled value=""></option>
-                                <option>Ecommmerce</option>
-                                <option>Ecommmerce</option>
-                                <option>Ecommmerce</option>
-                            </select>
-                        </div>
-                        <div class="form-floating mb-3">
-                            <input type="text" class="form-control border-0 border-bottom own_border" id="floatingInput"
-                                placeholder="Username">
-                            <label for="floatingInput">Username</label>
-                        </div>
-                        <div class="form-floating mb-3">
-                            <input type="email" class="form-control border-0 border-bottom own_border"
-                                id="floatingEmail" placeholder="Your Email">
-                            <label for="floatingEmail">Your Email</label>
-                        </div>
-                        <div class="form-control text-start">
-                            <label for="formFileSm" class="form-label">Upload your logo</label>
-                            <input class="form-control form-control-sm" id="formFileSm" type="file">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control border-0 border-bottom own_border"
+                                        id="floatingInput" placeholder="Business Name">
+                                    <label for="floatingInput">Business Name</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <label for="floatingInput">Business Type</label>
+                                    <select class="form-select" id="" required>
+                                        <option selected disabled value=""></option>
+                                        <option>Ecommmerce</option>
+                                        <option>Ecommmerce</option>
+                                        <option>Ecommmerce</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-control text-start form_height">
+                                    <label for="formFileSm" class="form-label">Upload your logo</label>
+                                    <input class="form-control form-control-sm" id="formFileSm" type="file">
+                                    <img class="ms-5" width="150" src="https://image.shutterstock.com/image-vector/check-mark-vector-icon-green-260nw-1326165008.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control border-0 border-bottom own_border"
+                                        id="floatingInput" placeholder="Username">
+                                    <label for="floatingInput">Username</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control border-0 border-bottom own_border"
+                                        id="floatingEmail" placeholder="Your Email">
+                                    <label for="floatingEmail">Your Email</label>
+                                </div>
+
+                                <div class="form-control text-start form_height">
+                                    <label for="formFileSm" class="form-label">Your profile picture</label>
+                                    <input class="form-control form-control-sm" id="formFileSm" type="file">
+                                    <img class="ms-5" width="150" src="https://image.shutterstock.com/image-vector/check-mark-vector-icon-green-260nw-1326165008.jpg" alt="">
+                                </div>
+                            </div>
                         </div>
                         <button class="w-50 mt-5 btn btn-lg regular_btn text-light " type="submit">Next</button>
                     </form>
