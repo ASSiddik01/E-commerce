@@ -1,0 +1,17 @@
+when successful sign up show alart - sweet alart 2
+Step_1 - form
+    Business Name
+    Username
+    Logo
+    Type
+    email
+Step_2 - Show Plan
+    
+Step_3 - Demo for Individuals package (perfect scroll bar)
+
+Step_4 - Payment Getway
+
+
+signup ektu upor a uthbe
+
+
