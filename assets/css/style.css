@@ -420,30 +420,6 @@ footer {
 
 
 
-/*+++++++++++++++++++
-    Responsive CSS 
- ++++++++++++++++++*/
-
-/* Tablet Device */
-@media (max-width:768px) {
-    .grid-wrapper .big {
-        -ms-grid-column-span: 1;
-        grid-column: span 1;
-    }
-}
-
-/* Mobile Device */
-
-@media (max-width:576px) {
-    .banner_title h2 {
-        font-size: 30px;
-    }
-
-    .banner_title h1 {
-        font-size: 40px;
-    }
-}
-
 
 
 /* Testimonials */
@@ -600,4 +576,42 @@ footer {
 
 .form_height:hover input{
     display: block;
+}
+
+.logo_upload{
+    margin-top: 80px;
+}
+
+
+
+/*+++++++++++++++++++
+    Responsive CSS 
+ ++++++++++++++++++*/
+
+/* Tablet Device */
+@media (max-width:768px) {
+    .grid-wrapper .big {
+        -ms-grid-column-span: 1;
+        grid-column: span 1;
+    }
+
+    .logo_upload{
+        margin-top: 80px;
+    }
+}
+
+/* Mobile Device */
+
+@media (max-width:576px) {
+    .banner_title h2 {
+        font-size: 30px;
+    }
+
+    .banner_title h1 {
+        font-size: 40px;
+    }
+
+    .logo_upload{
+        margin-top: 0px;
+    }
 }
